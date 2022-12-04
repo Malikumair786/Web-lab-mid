@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>RUSH Bakers</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="card text-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" id="logo" href="#"><img src="./pic/logo3.webp" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foot">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index2.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index2.html">Order Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foot">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SignIn</button>
+                </form>
+            </div>
+        </nav>
+        <hr>
+        <div>
+            <h1 class="card-title">RUSH Bakers</h1>
+        </div>
+    </div>
+
+
+
+    <section class="main">
+        <div class="row">
+            <aside class="col-sm-12 col-lg-2 categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#" id="sweet" onclick="sweets()">SWEETS</a></li>
+                    <li><a href="#" onclick="cakes()">CAKES</a></li>
+                    <li><a href="#" onclick="pizza()">PIZZA</a></li>
+                    <li><a href="#" onclick="breads()">BREADS</a></li>
+                    <li><a href="#" onclick="pastries()">PASTRIES</a></li>
+                    <li><a href="#" onclick="biscuit()">BISCUIT</a></li>
+                    <li><a href="#" onclick="donuts()">DONUTS</a></li>
+                    <li><a href="#" onclick="snacks()">SNACKS</a></li>
+                    <li><a href="#" onclick="salad()">SALAD</a></li>
+                    <li><a href="#" onclick="puff()">PUFF</a></li>
+                    <li><a href="#" onclick="bun()">BUN</a></li>
+                    <li><a href="#" onclick="snacks()">SNACKS</a></li>
+                    <li><a href="#" onclick="nimko()">NIMKO</a></li>
+                    <li><a href="#" onclick="more()">More ..</a></li>
+                </ul>
+            </aside>
+
+            <section class="col-10 main">
+                <div class="row" id="items">
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+
+                        <div class="card" style="width: 19rem;">
+                            <a href="./index2.html" class="hello">
+                                <img src="./pic/sweet3.jpg" class="card-img-top" alt="Sweets">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Sweets</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, consequuntur?</p>
+                                <a href="" class="btn btn-primary">See More..</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+
+
+                        <div class="card" style="width: 19rem;">
+                            <a href="/index2.html" class="hello">
+                                <img src="./pic/cake2.jpg" class="card-img-top" alt="cakes">
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Cakes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, consequuntur.</p>
+                                <a href="" class="btn btn-primary">See More..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+
+
+                        <div class="card" style="width: 19rem;">
+                            <a href="/index2.html" class="hello">
+                                <img src="./pic/biscuits1.jpg" class="card-img-top" alt="...">
+
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Biscuits</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, necessitatibus?</p>
+                                <a href="" class="btn btn-primary">See More..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+
+
+                        <div class="card" style="width: 19rem;">
+                            <a href="/index2.html" class="hello">
+                                <img src="./pic/bread1.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">breads</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolore!</p>
+                                <a href="" class="btn btn-primary">See More..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+
+
+                        <div class="card" style="width: 19rem;">
+                            <a href="/index2.html" class="hello">
+                                <img src="./pic/donut2.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Donuts</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, error?</p>
+                                <a href="" class="btn btn-primary">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-3">
+
+                        <div class="card" style="width: 19rem;">
+                            <a href="/index2.html" class="hello">
+                                <img src="./pic/pastry1.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Biscuits</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="" class="btn btn-primary">See More..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer id="foot">
+        <div class="row" id="branches">
+            <div class="branch col-sm-12 col-md-6 col-lg-3">
+                <h2>Branch 1</h2>
+                SirSyed Chowk, Rawalpindi
+                <br> Timing: 6AM to 1AM
+                <br>
+                Tel: 0321-5678026
+            </div>
+            <hr>
+            <div class="branch col-sm-12 col-md-6 col-lg-3">
+                <h2>Branch 2</h2>
+                National Town, Rawalpindi
+                <br> Timing: 6AM to 1AM
+                <br>
+                Tel: 0333-5631160
+            </div>
+            <hr>
+            <div class="branch col-sm-12 col-md-6 col-lg-3">
+                <h2>Branch 3</h2>
+                Committee Chowk, Rawalpindi
+                <br> Timing: 6AM to 12AM
+                <br>
+                Tel: 0308-3333005
+            </div>
+            <hr>
+            <div class="branch col-sm-12 col-md-6 col-lg-3">
+                <h2>Branch 4</h2>
+                Aria Mohallah, Rawalpindi
+                <br>
+                Timing: 6AM to 12AM
+                <br>
+                Tel: 0321-5941080
+            </div>
+        </div>
+        <hr>
+        <p id="copy">Copyright &copy; 2022 RUSH Bakers. All Right Reserved</p>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
